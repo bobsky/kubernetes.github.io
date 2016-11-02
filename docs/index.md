@@ -83,8 +83,14 @@ h2, h3, h4 {
   </div>
   <div class="col3rd">
     <h3>Installing Kubernetes on Linux with kubeadm</h3>
-    <p>This quickstart will show you how to install a secure Kubernetes cluster on any computers running Linux, using a tool called <code>kubeadm</code> which is part of Kubernetes. It'll work with local VMs, physical servers and/or cloud servers, either manually or as part of your own automation. It is currently in alpha but please try it out and give us feedback!</p>
+    <p>This quickstart will show you how to install a secure Kubernetes cluster on any computers running Linux, using a tool called <code>kubeadm</code>. It'll work with local VMs, physical servers and/or cloud servers, either manually or as a part of your own automation. It is currently in alpha but please try it out and give us feedback!</p>
+    <p>If you are looking for a fully automated solution, note that kubeadm is intended as a building block.  Tools such as GKE and kops build on kubeadm to provision a complete cluster.</p>
     <a href="/docs/getting-started-guides/kubeadm/" class="button">Install Kubernetes with kubeadm</a>
+  </div>
+  <div class="col3rd">
+    <h3>Installing Kubernetes on AWS with kops</h3>
+    <p>This quickstart will show you how to bring up a complete Kubernetes cluster on AWS, using a tool called <code>kops</code>.</p>
+    <a href="/docs/getting-started-guides/kops/" class="button">Install Kubernetes with kops</a>
   </div>
   <div class="col3rd">
     <h3>Guided Tutorial</h3>
@@ -117,7 +123,7 @@ h2, h3, h4 {
   <div class="col2nd">
   <h3>Contribute to Our Docs</h3>
   <p>The docs for Kubernetes are open-source, just like the code for Kubernetes itself. The docs are on GitHub Pages, so you can fork it and it will auto-stage on username.github.io, previewing your changes!</p>
-  <a href="/editdocs/" class="button">Write Docs for K8s</a>
+  <a href="/docs/contribute/create-pull-request/" class="button">Write Docs for K8s</a>
   </div>
   <div class="col2nd">
   <h3>Need Help?</h3>
